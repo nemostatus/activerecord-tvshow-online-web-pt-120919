@@ -4,7 +4,7 @@ class Show < ActiveRecord::Base
 end
 
 def self.most_popular_show
-  best = Show.find_by(tating: "#{self.highest_rating}")
+  best = Show.find_by(rating: "#{self.highest_rating}")
   best
 end 
 end 
