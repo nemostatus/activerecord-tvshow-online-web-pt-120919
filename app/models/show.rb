@@ -27,6 +27,6 @@ def self.popular_shows
 end 
 
 def self.alphabetical_order
-  Show.where
+  Show.order
 end 
 end 
