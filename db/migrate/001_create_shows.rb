@@ -11,5 +11,5 @@ end
 
 
 def self.highest_rating 
-  Show.maximum
+  Show.maximum(:rating)
 end 
