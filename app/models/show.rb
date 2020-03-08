@@ -26,7 +26,7 @@ def self.popular_shows
   popular
 end 
 
-def self.alphabetical_order
+def self.shows_by_alphabetical_order
   Show.order("name")
 end 
 end 
