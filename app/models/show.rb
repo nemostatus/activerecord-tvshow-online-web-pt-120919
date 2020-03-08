@@ -20,4 +20,6 @@ end
 def self.ratings_sum
   sum = Show.sum(:rating)
 end 
+
+def popular_shows
 end 
