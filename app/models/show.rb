@@ -25,4 +25,6 @@ def self.popular_shows
   popular = Show.where("rating > ?", 5)
   popular
 end 
+
+def self.alphabetical_order
 end 
