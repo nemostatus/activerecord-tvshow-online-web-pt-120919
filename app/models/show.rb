@@ -19,3 +19,4 @@ end
 
 def ratings_sum
 end 
+end 
