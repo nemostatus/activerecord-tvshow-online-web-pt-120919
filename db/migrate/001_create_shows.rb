@@ -10,7 +10,7 @@ class Show < ActiveRecord::Migration[5.2]
 end 
 
 
-def self.highest_rating 
+def highest_rating 
   Show.maximum(:rating)
 end 
 end 
