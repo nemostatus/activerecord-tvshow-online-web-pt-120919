@@ -17,5 +17,5 @@ def self.least_popular_show
   worst
 end 
 
-def 
+def ratings_sum
 end 
