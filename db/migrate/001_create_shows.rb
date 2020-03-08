@@ -9,3 +9,6 @@ class Show < ActiveRecord::Migration[5.2]
   end 
 end 
 end 
+
+def highest_rating 
+end 
