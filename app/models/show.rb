@@ -22,6 +22,6 @@ def self.ratings_sum
 end 
 
 def popular_shows
-  popular = Show.w
+  popular = Show.where
 end 
 end 
