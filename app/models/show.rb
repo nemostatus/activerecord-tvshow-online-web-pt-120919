@@ -7,4 +7,6 @@ def self.most_popular_show
   best = Show.find_by(rating: "#{self.highest_rating}")
   best
 end 
+
+def self.lowest_rating
 end 
