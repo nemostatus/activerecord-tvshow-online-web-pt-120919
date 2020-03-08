@@ -22,5 +22,6 @@ def self.ratings_sum
 end 
 
 def popular_shows
+  
 end 
 end 
