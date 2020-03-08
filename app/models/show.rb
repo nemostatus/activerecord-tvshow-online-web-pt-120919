@@ -13,5 +13,5 @@ def self.lowest_rating
 end
 
 def self.least_popular_show
-  worst = Show.find_by()
+  worst = Show.find_by(self.lowest_rating)
 end 
